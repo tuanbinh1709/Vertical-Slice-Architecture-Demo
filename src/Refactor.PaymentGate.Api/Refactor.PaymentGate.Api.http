@@ -1,0 +1,24 @@
+@Refactor.PaymentGate.Api_HostAddress = http://localhost:5070
+
+
+POST {{Refactor.PaymentGate.Api_HostAddress}}/api/payment-organizations/
+Accept: application/json
+# {
+#     "Name": "THCS Test",
+#     "SchoolCode": "12345678",
+#     "SchoolLevelCode": "03"
+# }
+{
+  "Name": "string",
+  "SchoolCode": "string",
+  "SchoolLevelCode": "string"
+}
+###
+
+GET {{Refactor.PaymentGate.Api_HostAddress}}/api/payment-organizations/{id}
+
+###
+
+PUT {{Refactor.PaymentGate.Api_HostAddress}}/api/payment-organizations/{id}
+
+###
