@@ -23,3 +23,7 @@ public sealed class PaymentOrganizationStaticSortBy : ISortBy<PaymentOrganizatio
             .ThenSortBy(ThenSchoolLevelCode, po => po.SchoolLevelCode);
     }
 }
+
+public static partial class Constants
+{
+}

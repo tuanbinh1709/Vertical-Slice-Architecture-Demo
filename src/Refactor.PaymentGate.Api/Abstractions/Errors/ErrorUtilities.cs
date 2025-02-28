@@ -109,9 +109,4 @@ public static class ErrorUtilities
 
         return errors;
     }
-
-    public static List<TValue> EmptyList<TValue>()
-    {
-        return [];
-    }
 }

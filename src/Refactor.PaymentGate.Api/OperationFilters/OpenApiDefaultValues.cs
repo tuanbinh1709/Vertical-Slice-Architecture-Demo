@@ -1,6 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc.ApiExplorer;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
-using Microsoft.OpenApi.Models;
 using System.Text.Json;
 
 namespace Refactor.PaymentGate.Api.OperationFilters;

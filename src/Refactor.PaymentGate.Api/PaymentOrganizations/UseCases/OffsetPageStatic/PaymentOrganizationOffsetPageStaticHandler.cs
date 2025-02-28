@@ -1,8 +1,4 @@
-﻿using Refactor.PaymentGate.Api.PaymentOrganizations.Filtering;
-using Refactor.PaymentGate.Api.PaymentOrganizations.Sorting;
-using System.Linq.Expressions;
-
-namespace Refactor.PaymentGate.Api.PaymentOrganizations.UseCases.OffsetPageStatic;
+﻿namespace Refactor.PaymentGate.Api.PaymentOrganizations.UseCases.OffsetPageStatic;
 
 public class PaymentOrganizationOffsetPageStaticHandler(IPaymentOrganizationData paymentOrganizationData)
     : IOffsetPageQueryHandler<PaymentOrganizationOffsetPageStaticQuery, PaymentOrganizationOffsetPageStaticResponse,

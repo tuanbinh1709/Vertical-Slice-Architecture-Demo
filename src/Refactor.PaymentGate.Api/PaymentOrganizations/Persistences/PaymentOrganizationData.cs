@@ -1,5 +1,4 @@
 ﻿using Refactor.PaymentGate.Api.Abstractions.DDD.Specifications.Common;
-using System.Linq.Expressions;
 
 namespace Refactor.PaymentGate.Api.PaymentOrganizations.Persistences;
 
